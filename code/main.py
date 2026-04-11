@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1️⃣ Load MNIST
-print("Loading MNIST dataset...")
-mnist = fetch_openml('mnist_784', version=1)
+print("Loading Fashion MNIST dataset...")
+mnist = fetch_openml('Fashion-MNIST', version=1)
 X, y = mnist.data, mnist.target
 
 # 2️⃣ Train/Test split
